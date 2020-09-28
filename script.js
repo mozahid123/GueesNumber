@@ -89,7 +89,7 @@ document.getElementById("result").innerHTML=dialog;
 
 }
 function showNumberBelow(){
-    const text="YOur guess is too low!!" 
+    const text="Your guess is too low!!" 
     let dialog=getDialog('warning',text);
 document.getElementById("result").innerHTML=dialog;  
 }
@@ -104,7 +104,7 @@ function displayHistory(){
     let list="<ul class='list-group'>";
 
     while(index>=0){
-    list+="<li class='list-group-item mt-3'>"+"you gussses"+guesses[index]+"</li>"
+    list+="<li class='list-group-item mt-3'>"+"You guess "+guesses[index]+"</li>"
     index-=1;
     }
 
